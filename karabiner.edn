@@ -1,0 +1,144 @@
+{
+  :simlayers {
+    :a-mode {:key :a}
+    :space-mode {:key :spacebar}
+    :one-mode {:key :1}
+    :two-mode {:key :2}
+    :three-mode {:key :3}
+  }
+  :main [
+    {
+      :des "switch all with space"
+      :rules [
+        :space-mode
+        [:y :t]
+        [:u :r]
+        [:i :e]
+        [:o :w]
+        [:p :q]
+        [:open_bracket :tab]
+
+        [:h :g]
+        [:j :f]
+        [:k :d]
+        [:l :s]
+        [:semicolon :a]
+
+        [:n :b]
+        [:m :v]
+        [:comma :c]
+        [:period :x]
+        [:slash :z]
+
+        ;; with shift 
+        [:!Ry :!Rt]
+        [:!Ru :!Rr]
+        [:!Ri :!Re]
+        [:!Ro :!Rw]
+        [:!Rp :!Rq]
+
+        [:!Rh :!Rg]
+        [:!Rj :!Rf]
+        [:!Rk :!Rd]
+        [:!Rl :!Rs]
+        [:!Rsemicolon :!Ra]
+
+        [:!Rn :!Rb]
+        [:!Rm :!Rv]
+        [:!Rcomma :!Rc]
+        [:!Rperiod :!Rx]
+        [:!Rslash :!Rz]
+
+        ;; with caps-lock
+        [:!Ey :!Ot]
+        [:!Eu :!Oe]
+        [:!Ei :!Or]
+        [:!Eo :!Ow]
+        [:!Ep :!Oq]
+
+        [:!Eh :!Og]
+        [:!Ej :!Od]
+        [:!Ek :!Of]
+        [:!El :!Os]
+        [:!Esemicolon :!Oa]
+
+        [:!En :!Ob]
+        [:!Em :!Ov]
+        [:!Ecomma :!Oc]
+        [:!Eperiod :!Ox]
+        [:!Eslash :!Oz]
+      ]
+    }
+    {
+      :des "switch layer one"
+      :rules [
+        :one-mode
+        [:y :t]
+        [:u :r]
+        [:i :e]
+        [:o :w]
+        [:p :q]
+        [:open_bracket :tab]
+
+        [:h :g]
+        [:j :f]
+        [:k :d]
+        [:l :s]
+        [:semicolon :a]
+
+        [:n :b]
+        [:m :v]
+        [:comma :c]
+        [:period :x]
+        [:slash :z]
+      ]
+    }
+    {
+      :des "switch layer three"
+      :rules [
+        :three-mode
+        [:y :!Rt]
+        [:u :!Rr]
+        [:i :!Re]
+        [:o :!Rw]
+        [:p :!Rq]
+
+        [:h :!Rg]
+        [:j :!Rf]
+        [:k :!Rd]
+        [:l :!Rs]
+        [:semicolon :!Ra]
+
+        [:n :!Rb]
+        [:m :!Rv]
+        [:comma :!Rc]
+        [:period :!Rx]
+        [:slash :!Rz]
+      ]
+    }
+     {
+      :des "switch layer two"
+      :rules [
+        :two-mode
+        [:y :!Ot]
+        [:u :!Oe]
+        [:i :!Or]
+        [:o :!Ow]
+        [:p :!Oq]
+
+        [:h :!Og]
+        [:j :!Od]
+        [:k :!Of]
+        [:l :!Os]
+        [:semicolon :!Oa]
+
+        [:n :!Ob]
+        [:m :!Ov]
+        [:comma :!Oc]
+        [:period :!Ox]
+        [:slash :!Oz]
+       
+      ]
+    }
+  ]
+}
